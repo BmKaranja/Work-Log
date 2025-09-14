@@ -36,7 +36,9 @@
     background-color: whitesmoke;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .box-1{
     background-color: whitesmoke;
@@ -44,4 +46,13 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin: 0 50vh;
+    display :grid;
+}
+.imgs{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 20vw;
+    height: 40vh;
+    position: cover;
 }
